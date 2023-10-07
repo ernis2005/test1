@@ -2,6 +2,8 @@ import React from 'react';
 
 import './App.scss';
 import {AiOutlineArrowRight} from 'react-icons/ai'
+import { ChooseUsCard } from './components/Cards/ChooseUsCard/ChooseUsCard';
+
 function App() {
   return (
     <main >
@@ -21,8 +23,9 @@ function App() {
           <p>Quis fringilla convallis et vitae volutpat at porttitor. Est tincidunt massa aliquam sed enim rhoncus. <br /> Id nullam sollicitudin aliquet in. </p>
         </div>
       </div>
-      <div>
-        hello
+      <div className='Contend block1'> 
+        <h2>Почему выбирают нас?</h2>
+         <ChooseUsCard/>
       </div>
       <div>
         hello
