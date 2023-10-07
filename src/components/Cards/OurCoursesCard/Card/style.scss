@@ -1,0 +1,164 @@
+.OurCoursesCard {
+    width: 550px;
+    margin: 0 auto;
+    border-radius: 20px;
+    background: var(--WHITE, #FFF);
+    box-shadow: 0px 0px 15px 0px rgba(119, 119, 119, 0.10);
+    display: grid;
+    gap: 20px;
+    padding: 20px;
+
+
+    p {
+        width: 100%;
+        text-align: left;
+        align-items: center;
+        font-size: 26px;
+        font-weight: 600;
+        margin: 0;
+
+        samp {
+            color: var(--DARK, #161616);
+            font-family: Montserrat;
+            font-size: 24px;
+            font-style: italic;
+            font-weight: 400;
+            line-height: 180%;
+            /* 43.2px */
+            margin-left: 10px;
+        }
+
+    }
+
+    .OurCoursesCardImage {
+        width: 100%;
+        background-color: #F0F0F0;
+        display: grid;
+        justify-content: center;
+        border-radius: 20px;
+        margin-top: 20px;
+
+        img {
+            padding: 50px;
+
+        }
+    }
+
+    .OurCoursesCardname {
+        color: var(--DARK, #161616);
+        font-family: Montserrat;
+        font-size: 26px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 185%;
+
+    }
+
+    .OurCoursesCardblock1 {
+        display: block;
+        gap: 10px;
+
+        div {
+            display: flex;
+            justify-content: space-between;
+
+            span {
+                color: rgba(22, 22, 22, 0.51);
+                font-family: Montserrat;
+                font-size: 16px;
+                font-style: italic;
+                font-weight: 400;
+                line-height: 185%;
+
+                /* 29.6px */
+                p {
+                    color: var(--DARK, #161616);
+                    font-family: Montserrat;
+                    font-size: 18px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: 185%;
+                    /* 33.3px */
+
+                }
+            }
+        }
+    }
+
+    .OurCoursesCardBonuses {
+        width: 100%;
+
+        samp {
+            color: rgba(22, 22, 22, 0.51);
+            font-family: Montserrat;
+            font-size: 16px;
+            font-style: italic;
+            font-weight: 400;
+            line-height: 185%;
+        }
+
+        p {
+            color: var(--DARK, #161616);
+            font-family: Montserrat;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 185%;
+        }
+    }
+
+    .OurCoursesCardPrice {
+        display: flex;
+        grid-area: 10px;
+
+        p {
+            color: var(--DARK, #161616);
+            font-family: Montserrat;
+            font-size: 26px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 180%;
+            /* 46.8px */
+            max-width: 100%;
+        }
+
+        s {
+            color: #A9A9A9;
+            font-family: Montserrat;
+            font-size: 28px;
+            font-style: italic;
+            font-weight: 500;
+            width: 150px;
+
+            /* 50.4px */
+        }
+    }
+
+    .OurCoursesCardButton {
+        display: flex;
+        width: 90%;
+        height: 60px;
+        padding: 10px 10px 10px 30px;
+        justify-content: space-between;
+        align-items: center;
+        border-radius: 40px;
+        background: var(--BLUE, #3402F9);
+
+        p {  
+            color: var(--WHITE, #FFF);
+            font-family: Montserrat;
+            font-size: 30px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: normal;
+
+        }
+
+        svg {
+            width: 50px;
+            height: 50px;
+            flex-shrink: 0;
+            fill: var(--WHITE, #FFF);
+        }
+    }
+}

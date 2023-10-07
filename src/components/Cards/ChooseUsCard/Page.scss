@@ -29,7 +29,7 @@
     @media screen and (max-width:1008px) {
         width: 100% !important;
         flex-wrap: wrap;
-        row-gap: 10px;
+        row-gap: 40px;
         justify-content: space-between;
 
         .Card {
@@ -41,7 +41,19 @@
         }
 
     }
-
+    @media screen and (max-width:797px) {
+        row-gap: 30px;
+    }
+    @media screen and (max-width:661px) {
+        row-gap: 20px;
+    }
+    @media screen and (max-width:469px) {
+        
+        row-gap: 10px;
+    }
+@media screen and (max-width:407px) {
+    row-gap: 5px2;
+}
 
     .Card {
         width: 29%;
@@ -50,7 +62,10 @@
         padding: 30px;
         border-radius: 50px;
         position: relative;
-
+        -webkit-box-shadow: 3px 5px 8px 0px rgba(34, 60, 80, 0.2);
+-moz-box-shadow: 3px 5px 8px 0px rgba(34, 60, 80, 0.2);
+box-shadow: 3px 5px 8px 0px rgba(34, 60, 80, 0.2);
+       
         @media screen and (max-width:738px) {
             width: 38% !important;
         }
@@ -59,6 +74,10 @@
     height: 120px !important;
     border-radius: 30px;
 }
+@media screen and (max-width:400px) {
+    width: 72% !important;
+ }
+
         .Icon {
             width: 70px;
             height: 70px;

@@ -106,8 +106,12 @@
     }
 
 }
+.header{
+    display: block;
+row-gap: 40px;
+}
 .block1{
-  
+  padding-bottom: 50px;
     h2{
         font-size: 42px;
         color: #161616;

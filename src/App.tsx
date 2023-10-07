@@ -3,10 +3,11 @@ import React from 'react';
 import './App.scss';
 import {AiOutlineArrowRight} from 'react-icons/ai'
 import { ChooseUsCard } from './components/Cards/ChooseUsCard/ChooseUsCard';
+import { OurCoursesCard } from './components/Cards/OurCoursesCard/OurCoursesCard';
 
 function App() {
   return (
-    <main >
+    <main className='header' >
       <div className='block'>
         <span className='BlockBg'>
           <p>ORACLEDIGITAL</p>
@@ -27,8 +28,9 @@ function App() {
         <h2>Почему выбирают нас?</h2>
          <ChooseUsCard/>
       </div>
-      <div>
-        hello
+      <div className='Contend block1'>
+        <h2>Наши курсы</h2>
+        <OurCoursesCard/>
       </div>
       <div>
         hello
