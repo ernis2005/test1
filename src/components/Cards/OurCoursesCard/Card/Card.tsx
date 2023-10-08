@@ -2,8 +2,10 @@ import React from 'react'
 import './style.scss'
 import {BiRightArrowAlt} from 'react-icons/bi'
 let name = 'OurCoursesCard'
-
-export const Card = () => {
+interface Person {
+    image:string
+}
+export const Card = ({image}:Person) => {
     return (
         <div className={`${name}`}>
             <p>
@@ -12,7 +14,7 @@ export const Card = () => {
 
             </p>
             <div className={`${name}Image`}>
-                <img src='/images/js.png' alt='js' />
+                <img src={image} alt='js' />
             </div>
             <p className={`${name}name`}>Групповое занятие, группы от 5 до 8 студентов.</p>
             <div className={`${name}block1`}>

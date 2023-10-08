@@ -22,22 +22,41 @@ export const OurCoursesCard = () => {
         modifier: 2,
         slideShadows: false
       }}
+      breakpoints={{
+        320:{
+          slidesPerView: 1,
+        },
+        553:{
+          slidesPerView: 1.2,
+        },
+        670:{
+          slidesPerView: 1.5,
+        },
+        756:{
+          slidesPerView: 2,
+        },
+        1108: {
+          slidesPerView: 3,
+        },
+
+      }}
+      initialSlide={1}
       slidesPerView={3}
       centeredSlides
 
     >
       <SwiperSlide
       >
-        <Card />
+        <Card image={'/images/js.png'}/>
       </SwiperSlide>
       <SwiperSlide
       >
-        <Card />
+        <Card image={'/images/Group.png'} />
       </SwiperSlide>
 
       <SwiperSlide
       >
-        <Card />
+        <Card image={'/images/skill-icons_javascript.png'}/>
       </SwiperSlide>
     </Swiper>
 
