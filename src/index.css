@@ -8,10 +8,11 @@ body {
  
 }
 .Contend{
-  max-width: 1920px;
+  max-width: 1520px;
   justify-content: center;
   margin: 0 auto;
-  padding: 0px 40px;
+  padding: 20px 40px;
+ 
  
 }
 @media screen and (max-width:970px) {

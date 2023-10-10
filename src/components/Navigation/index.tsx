@@ -6,7 +6,7 @@ export const Navigation = () => {
     <header className='Navigation'>
       <nav>
         <h1>
-          opacle <span>edigital</span>
+          opacle <span>digital</span>
         </h1>
         <ul>
           <li>Главная</li>
