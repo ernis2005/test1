@@ -34,7 +34,7 @@ function App() {
         <h2>Наши курсы</h2>
         <OurCoursesCard/>
       </div>
-    {/*     <div className='Contend InfoMentors'>
+       <div className='Contend InfoMentors'>
       <div className='InfoMentorsBlock1'>
         <p>Получайте знание у самых топовых менторов</p>
         <span>
@@ -46,7 +46,7 @@ function App() {
         <MentorsCard/>
       </div>
       </div>
-      <div>
+    {/*    <div>
         hello
       </div>
       <div>
