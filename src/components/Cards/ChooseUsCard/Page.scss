@@ -11,6 +11,12 @@
     height: 150px;
     border-radius: 30px;
     padding: 20px;
+    transition: 0.2s;
+    &:hover{
+        background-color: blue;
+        color: #fff;
+         transition: 0.2s;
+    }
     @media screen and (max-width:1312px) {
         width: 200px;
         height: 130px;

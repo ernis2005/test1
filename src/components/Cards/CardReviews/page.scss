@@ -1,0 +1,49 @@
+.CardReviews {
+    margin: 0 auto;
+    padding: 40px;
+    position: relative;
+    z-index: 11;
+    justify-content: center;
+    align-items: center;
+
+    .CardReviewsCard {
+        width: 350px;
+     
+        display: inline-flex;
+        padding: 20px;
+        flex-direction: column;
+        align-items: flex-start;
+        
+        border-radius: 20px;
+        background: var(--WHITE, #FFF);
+        .CardReviewsReviews{
+            width: 100%;
+            display: flex;
+            padding-bottom: 10px;
+            align-content: center;
+            border-bottom: 1px solid rgba(0, 0, 0, 0.212);
+            gap: 10px;
+         svg{
+            width: 20px;
+         }
+         p{
+            margin: 0;
+            padding: 0;
+            color: var(--DARK, #161616);
+font-family: Montserrat;
+font-size: 23px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+         }
+        }
+    }
+}
+
+.CardReviewsInfo{
+    color: var(--DARK);
+    font-size:15px;
+    font-weight: 400;
+    opacity: .7;
+   
+}

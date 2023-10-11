@@ -3,6 +3,7 @@ import './Page.scss'
 import { СheckMarkSvg } from '../../svg/MentorsCardSvg/СheckMarkSvg'
 import { MentorsCardBlock1Svg } from '../../svg/MentorsCardSvg/MentorsCardBlock1Svg'
 import { MentorsCardBlocl2Svg } from '../../svg/MentorsCardSvg/MentorsCardBlocl2Svg'
+
 import { MentorsCardBlock3Svg, MentorsCardBlock3Svg1 } from '../../svg/MentorsCardSvg/MentorsCardBlock3Svg'
 export const MentorsCard = () => {
   let name = 'MentorsCards'
