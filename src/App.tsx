@@ -6,6 +6,8 @@ import { ChooseUsCard } from './components/Cards/ChooseUsCard/ChooseUsCard';
 import { OurCoursesCard } from './components/Cards/OurCoursesCard/OurCoursesCard';
 import { MentorsCard } from './components/Cards/MentorsCard/MentorsCard';
 import { CardReviews } from './components/Cards/CardReviews/CardReviews';
+import { Block3SvgBG } from './components/svg/Block3Svg/Block3Svg';
+import RecommendationsCard from './components/Cards/RecommendationsCard/RecommendationsCard';
 
 function App() {
 
@@ -30,7 +32,11 @@ function App() {
            </div>
              
           </div>
-          <span className='blockInfoP'>Quis fringilla convallis et vitae volutpat at porttitor. Est tincidunt massa aliquam sed enim rhoncus.  Id nullam sollicitudin aliquet in. </span>
+          <span className='blockInfoP' style={{marginTop:'15px'}}><p>
+          Quis fringilla convallis et vitae volutpat at porttitor. Est tincidunt massa aliquam sed enim rhoncus.  Id nullam sollicitudin aliquet in. 
+             
+            </p>
+             </span>
         </div>
       </div>
       <div className='Contend block1'>
@@ -44,7 +50,7 @@ function App() {
       <div className='Contend InfoMentors'>
         <div className='InfoMentorsBlock1'>
           <p>Получайте знание у самых топовых менторов</p>
-          <span>
+          <span style={{marginTop:'15px'}}>
             Chances are you will be 98% satisfied with the result/ 4.9 is our average
             <button>Записаться
               <div>
@@ -70,8 +76,12 @@ function App() {
           <CardReviews />
         </div>
       </div> */}
-      <div>
-        hello
+      <div className='Contend Block3'>
+        <div className='Block3Svg' >
+        <h2> Почему стоит задуматься о карьере в IT?</h2>
+        {/* <Block3SvgBG/> */}
+        </div>
+       <RecommendationsCard/>
       </div>
       <div>
         hello

@@ -173,26 +173,29 @@ p{
     line-height: 185%;
 }
         .blockInfoP {
-            color: var(--DARK, #161616);
-margin-top: 20px;
-            font-size: 22px;
-            font-style: normal;
-            font-weight: 500;
-            line-height: 185%;
-
-            /* 48.1px */
-            @media screen and (max-width:886px) {
-                font-size: 17px;
+            p{
+                color: var(--DARK, #161616);
+                margin-top: 20px;
+                            font-size: 22px;
+                            font-style: normal;
+                            font-weight: 500;
+                            line-height: 185%;
+                
+                            /* 48.1px */
+                            @media screen and (max-width:886px) {
+                                font-size: 17px;
+                            }
+                
+                            @media screen and (max-width:624px) {
+                                font-size: 14px;
+                            }
+                
+                            @media screen and (max-width:450px) {
+                                line-height: 100%;
+                                font-size: 10px;
+                            }
             }
-
-            @media screen and (max-width:624px) {
-                font-size: 14px;
-            }
-
-            @media screen and (max-width:450px) {
-                line-height: 100%;
-                font-size: 10px;
-            }
+          
 
         }
     }
@@ -408,7 +411,7 @@ margin-top: 20px;
     }
 
     .ReviewsBlock2 {
-        width: 100%;
+        width: 75%;
 
         height: auto;
         margin-top: 60px;
@@ -416,4 +419,34 @@ margin-top: 20px;
 
         border-radius: 0px 20px 20px 0px;
     }
+  
+}
+.Block3{
+  
+    div{
+         display: flex;
+        justify-content: space-between;
+        h2{
+            width: 570px;
+            color: var(--DARK, #161616);
+            font-family: Montserrat;
+            font-size: 32px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: normal;
+            @media screen and (max-width:447px) {
+                font-size: 20px !important;
+            }
+        }
+        svg{
+           
+            width: 400px ;
+            height: 400px ;
+            position: relative;
+            z-index: 0;
+            margin-top: -100px;
+        }
+
+    }
+   
 }
