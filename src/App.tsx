@@ -92,7 +92,7 @@ function App() {
   <div className='Block4Bg2' >
     <Block4Svg />
   </div>
-  <div className='Contend'>
+  <div>
   <Tabs/>
   </div>
  
