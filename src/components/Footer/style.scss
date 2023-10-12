@@ -1,0 +1,118 @@
+.Footer{
+    width: 100%;
+    background: var(--GRAY, #F0F0F0);
+    position: relative;
+z-index: 1;
+.FooterBlock1{
+    display: flex;
+    justify-content: space-between;
+    @media screen  and (max-width:822px) {
+        display: block;
+
+    }
+     .FooterInputs{
+        display: grid;
+        grid-template-columns: 2fr 2fr ;
+        gap: 40px;
+        row-gap: 90px;
+        margin-top: 25px;
+        @media screen and (max-width:1359px) {
+            input{
+                width: 100% !important;
+            }
+            button{
+                width: 100% !important;
+            }
+        }
+        @media screen and (max-width:450px) {
+            grid-template-columns: 2fr;
+            row-gap: 20px;
+        }
+        input{
+            width: 350px;
+            border: none;
+            outline: none;
+            height: 60px;
+            background-color: transparent;
+            color: var(--DARK, #161616);
+font-family: Montserrat;
+font-size: 16px;
+font-style: italic;
+font-weight: 400;
+line-height: 185%; /* 40.7px */
+letter-spacing: -0.22px;
+padding-bottom: 10px;
+opacity: 0.7;
+            border-bottom: 1px solid #6b6b6b;
+        }
+        button{
+            width: 100%;
+            border-radius: 30px;
+background: var(--BLUE, #3402F9);
+display: flex;
+width: 350px;
+height: 60px;
+
+justify-content: space-between;
+align-items: center;
+font-size: 20px;
+text-transform:  capitalize;
+color: #fff;
+opacity: 1;
+border: none;
+text-align: center;
+padding-left: 5px;
+margin-top: 11px;
+div{
+    width: 40px;
+    height: 40px;
+    background-color: #fff;
+    border-radius: 50%;
+    align-content: center;
+    svg{
+        padding: 11px;
+        color: #000;
+    }
+}
+
+        }
+    }
+    .FooterBlock1Info{
+        width: 50% !important;
+        @media screen and (max-width:1359px) {
+            h1{
+                font-size: 49px !important;
+            }
+        }
+        @media screen and (max-width:923px) {
+            h1{
+                font-size: 39px !important;
+            }
+            span{
+                font-size: 14px !important;
+            }
+        }
+        @media screen and (max-width:822px) {
+            width: 100% !important;
+            h1{
+                font-size: 50px !important;
+                @media screen and (max-width:500px) {
+                    font-size: 40px !important;
+                }
+            }
+        }
+        h1{
+            font-size: 62px;
+        }
+        span{
+            color: var(--DARK, #161616);
+font-family: Montserrat;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 185%; /* 40.7px */
+letter-spacing: -0.22px;
+        }
+    }
+}
+}
