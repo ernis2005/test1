@@ -1,0 +1,105 @@
+.Accordions{
+    display: grid;
+    gap: 20px;
+    text-align: center;
+    @media screen and (max-width:752px) {
+        gap: 0px !important;
+      }
+    position: relative;
+    .AccordionsCard {
+      margin-top: 20px;
+      @media screen and (max-width:752px) {
+        margin: 23px;
+      }
+        .AccordionsCardBlock1{
+            width: 70%;
+            margin: 0 auto;
+            padding: 20px;
+            border-radius: 30px;
+            background-color: #FFF;
+            
+            border-radius: 30px;
+            background: var(--WHITE, #FFF);
+            box-shadow: 0px 0px 15px 0px rgba(119, 119, 119, 0.10);
+            text-align: left;
+            display: flex;
+            @media screen and (max-width:1258px) {
+                width: 90% !important;
+            }
+            p{
+                text-align: left !important;
+                margin-left: 0px;
+                font-weight: 300 !important;
+                @media screen and (max-width:1258px ) {
+
+                    font-size: 13px !important;
+                }
+                @media screen and (max-width:450px) {
+                    font-size: 11px !important;
+                }
+                @media screen and (max-width:391px) {
+                    font-size: 10px !important;
+                }
+            }
+            justify-content: space-between;
+        }
+    }
+}
+
+.LoremIS{
+    display: none !important;
+     transition: 1s;
+}
+.loremAc{
+    display: block !important;
+    width: 69% !important;
+    position: relative;
+    margin: 0 auto;
+    background-color: #fff;
+    transition: 1s;
+    animation-duration: 0.5s;
+    animation-name: slidein;
+    box-shadow: 0px 0px 15px 0px rgba(119, 119, 119, 0.10);
+    @keyframes slidein {
+        from {
+          margin-top: -50px;
+         position: relative;
+         opacity: 0.1;
+        }
+      
+        to {
+        margin-top: 0;
+        position: relative;
+        opacity: 1.1;
+        }
+      }
+    
+
+border-radius: 0px 0px 10px 10px;
+transition: 0.5s;
+@media screen and (max-width:1258px) {
+ 
+    width: 80% !important;
+}
+
+
+p{
+    color: var(--DARK, #161616);
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    padding: 10px;
+    line-height: 150%; 
+    @media screen and (max-width:1258px) {
+        font-size: 13px !important;
+        
+    }
+    @media screen and (max-width:450px) {
+        font-size: 11px !important;
+    }
+    @media screen and (max-width:391px) {
+        font-size: 10px !important;
+    }
+}
+}

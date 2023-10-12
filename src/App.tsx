@@ -8,6 +8,8 @@ import { MentorsCard } from './components/Cards/MentorsCard/MentorsCard';
 import { CardReviews } from './components/Cards/CardReviews/CardReviews';
 import { Block3SvgBG } from './components/svg/Block3Svg/Block3Svg';
 import RecommendationsCard from './components/Cards/RecommendationsCard/RecommendationsCard';
+import { Block4Svg } from './components/svg/Block4Svg/Block4Svg';
+import { Tabs } from './components/Tabs/Tabs';
 
 function App() {
 
@@ -83,8 +85,14 @@ function App() {
         </div>
        <RecommendationsCard/>
       </div>
-      <div>
-        hello
+      <div  className='block4'>
+  <div className='Block4Bg' >
+    <Block4Svg />
+  </div>
+  <div className='Contend'>
+  <Tabs/>
+  </div>
+ 
       </div>
     </main>
   );

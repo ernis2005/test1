@@ -1,6 +1,8 @@
 .RecommendationsCards {
     display: block !important;
     grid-row: 30px;
+    position: relative;
+    z-index: 1;
     gap: 10px;
     .RecommendationsCardsCard {
         width: 100%;
@@ -280,9 +282,7 @@
    
     }
 }
-.svg2{
 
-}
 .RecommendationsCardssvg2{
     position: relative !important;
     width: 220px !important;
