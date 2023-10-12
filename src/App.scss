@@ -473,4 +473,20 @@ p{
             
         }
     }
+
+    .Block4Bg2{
+        display: none;
+     @media screen and (max-width:581px) {
+        display: block !important;
+        margin-top: 100px;
+        width: 100%;
+    position: absolute;
+    z-index: 0;
+    svg{
+        width: 100%;
+        
+    }
+     }  
+     
+    }
 }

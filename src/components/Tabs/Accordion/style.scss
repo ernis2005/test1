@@ -3,7 +3,7 @@
     gap: 20px;
     text-align: center;
     @media screen and (max-width:752px) {
-        gap: 0px !important;
+        gap: 0px;
       }
     position: relative;
     .AccordionsCard {
@@ -81,12 +81,15 @@ transition: 0.5s;
  
     width: 80% !important;
 }
+@media screen and (max-width:444px) {
+    width: 100%;
+}
 
 
 p{
     color: var(--DARK, #161616);
     font-family: Montserrat;
-    font-size: 18px;
+    font-size: 13px;
     font-style: normal;
     font-weight: 400;
     padding: 10px;

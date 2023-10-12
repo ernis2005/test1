@@ -89,6 +89,9 @@ function App() {
   <div className='Block4Bg' >
     <Block4Svg />
   </div>
+  <div className='Block4Bg2' >
+    <Block4Svg />
+  </div>
   <div className='Contend'>
   <Tabs/>
   </div>

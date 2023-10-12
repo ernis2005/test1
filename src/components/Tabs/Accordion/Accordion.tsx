@@ -32,8 +32,7 @@ export const Accordions = () => {
                     ['loremAc']: state == 1
                 })}>
                     <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit esse minima quo architecto officia, optio sint voluptatum minus corporis quam.
-                    </p>
+                       Congue nullam molestie sit consectetur commodo mi elit viverra in. Turpis porttitor eget in quis aliquam. Senectus non nisi odio curabitur nisl viverra odio. Sit nunc purus tortor sapien. Maecenas eget tellus massa consectetur. Etiam leo luctus etiam vel. Vulputate varius elit nibh tortor id interdum interdum tellus. </p>
                 </div>
             </div>
 
@@ -53,8 +52,7 @@ export const Accordions = () => {
                     ['loremAc']: state == 2
                 })}>
                     <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit esse minima quo architecto officia, optio sint voluptatum minus corporis quam.
-                    </p>
+                       Congue nullam molestie sit consectetur commodo mi elit viverra in. Turpis porttitor eget in quis aliquam. Senectus non nisi odio curabitur nisl viverra odio. Sit nunc purus tortor sapien. Maecenas eget tellus massa consectetur. Etiam leo luctus etiam vel. Vulputate varius elit nibh tortor id interdum interdum tellus. </p>
                 </div>
             </div>
             <div className={`${name}Card`}>
@@ -72,8 +70,7 @@ export const Accordions = () => {
                     ['loremAc']: state == 3
                 })}>
                     <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit esse minima quo architecto officia, optio sint voluptatum minus corporis quam.
-                    </p>
+                       Congue nullam molestie sit consectetur commodo mi elit viverra in. Turpis porttitor eget in quis aliquam. Senectus non nisi odio curabitur nisl viverra odio. Sit nunc purus tortor sapien. Maecenas eget tellus massa consectetur. Etiam leo luctus etiam vel. Vulputate varius elit nibh tortor id interdum interdum tellus. </p>
                 </div>
             </div>
             <div className={`${name}Card`}>
@@ -90,8 +87,7 @@ export const Accordions = () => {
                     ['loremAc']: state == 4
                 })}>
                     <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit esse minima quo architecto officia, optio sint voluptatum minus corporis quam.
-                    </p>
+                       Congue nullam molestie sit consectetur commodo mi elit viverra in. Turpis porttitor eget in quis aliquam. Senectus non nisi odio curabitur nisl viverra odio. Sit nunc purus tortor sapien. Maecenas eget tellus massa consectetur. Etiam leo luctus etiam vel. Vulputate varius elit nibh tortor id interdum interdum tellus. </p>
                 </div>
             </div>
             <div className={`${name}Card`}>
@@ -109,8 +105,7 @@ export const Accordions = () => {
                     ['loremAc']: state == 5
                 })}>
                     <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit esse minima quo architecto officia, optio sint voluptatum minus corporis quam.
-                    </p>
+                       Congue nullam molestie sit consectetur commodo mi elit viverra in. Turpis porttitor eget in quis aliquam. Senectus non nisi odio curabitur nisl viverra odio. Sit nunc purus tortor sapien. Maecenas eget tellus massa consectetur. Etiam leo luctus etiam vel. Vulputate varius elit nibh tortor id interdum interdum tellus. </p>
                 </div>
             </div>
         </div>

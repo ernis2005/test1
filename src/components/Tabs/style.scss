@@ -27,13 +27,17 @@ line-height: normal;
 @media screen and (max-width:998px) {
     font-size: 26px !important;
 }
+@media screen and (max-width:444px) {font-size: 20px !important;
+    
+}
     }
-    p{
+    h6{
         color: var(--DARK, #161616);
-text-align: center;
+text-align: left;
 font-family: Montserrat;
-font-size: 17px;
-width: 70%;
+font-size: 15px;
+padding: 5px;
+
 margin: 0 auto;
 font-style: normal;
 font-weight: 400;
@@ -41,6 +45,11 @@ line-height: 185%; /* 37px */
 letter-spacing: -0.2px;
 @media screen and (max-width:998px) {
     font-size: 13px !important;
+}
+@media screen and (max-width:444px) {
+    
+    font-size: 10px !important;
+    
 }
     }
 }
