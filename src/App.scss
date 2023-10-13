@@ -376,10 +376,18 @@ p{
             justify-content: space-between !important;
             max-width: 100% !important;
             align-items: center !important;
+            padding: 10px !important;
            
 
         @media screen and (max-width:606px ) {
             display: block  !important;
+            
+            p{
+                font-size: 45px !important;
+            }
+            div{
+                width: 260px !important;
+            }
         }
 
         }
@@ -405,7 +413,9 @@ p{
             border-radius: 20px;
             color: #fff;
             font-size: 20px;
-
+@media screen and (max-width:504px) {
+  width: 200px !important;
+}
             span {
                 font-size: 50px;
             }
@@ -413,10 +423,14 @@ p{
             p {
                 color: #FFF;
                 font-family: Montserrat;
-                font-size: 18px;
+                font-size: 18px !important;
                 font-style: normal;
                 font-weight: 600;
                 line-height: normal;
+                @media screen and (max-width:506px ) {
+                    font-size: 15px !important;
+                }
+                
             }
         }
     }
