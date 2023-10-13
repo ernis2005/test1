@@ -360,24 +360,35 @@ p{
     display: flex;
     justify-content: space-between;
     position: relative;
+    // clip-path: polygon(0 0, 0 100%, 100% 100%, 100% 17%, 41% 16%, 39% 12%, 36% 9%, 33% 6%, 31% 4%, 27% 3%, 24% 2%, 21% 0); width: 100%;
+    border-radius: 20px;
+    padding: 0;
+    background-color: #D9D9D9;
+    overflow: hidden;
+    @media screen and (max-width:861px) {
+        display: block !important;
+        .ReviewsBlock2{
+            max-width: 100% !important;
+            margin-top: -24px !important;
+        }
+        .ReviewsBlock1{
+            display: flex !important;
+            justify-content: space-between !important;
+            max-width: 100% !important;
+            align-items: center !important;
+           
 
-    .ReviewsBlock1 {
-        &::after {
-            content: "h ";
-            padding: 6px;
-            color: #D9D9D9;
-            background-color: #D9D9D9;
-            position: absolute;
-            top: 59px;
-            border-radius: 8px;
-            width: 170px;
-            margin-left: 251px;
-            height: 100px;
-            transform: rotate(34deg);
+        @media screen and (max-width:606px ) {
+            display: block  !important;
         }
 
+        }
+    }
+    
+    .ReviewsBlock1 {
+   
         padding: 20px;
-        width: 300px;
+        max-width: 300px;
         border-radius: 20px 10px 0px 20px;
         background-color: #D9D9D9;
 
@@ -411,7 +422,7 @@ p{
     }
 
     .ReviewsBlock2 {
-        width: 75%;
+    max-width: 75%;
 
         height: auto;
         margin-top: 60px;

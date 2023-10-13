@@ -26,6 +26,19 @@ export const CardReviews = () => {
         centeredSlides={true}
         spaceBetween={30}
         grabCursor={true}
+        breakpoints={{
+            320:{
+                slidesPerView: 1,
+            },
+            478:{
+                slidesPerView: 1.3,
+            },
+            862:{
+              slidesPerView: 2,
+            },
+           
+    
+          }}
         pagination={{
           clickable: true,
         }}

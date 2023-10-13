@@ -66,7 +66,7 @@ function App() {
         </div>
       </div>
 
-      {/* <div className='Contend Reviews'>
+      <div className='Contend Reviews'>
         <div className='ReviewsBlock1'>
           <p>Что говорят наши студенты</p>
           <div>
@@ -75,9 +75,9 @@ function App() {
           </div>
         </div>
         <div className='ReviewsBlock2'>
-          <CardReviews />
+           <CardReviews /> 
         </div>
-      </div> */}
+      </div>
       <div className='Contend Block3'>
         <div className='Block3Svg' >
         <h2> Почему стоит задуматься о карьере в IT?</h2>
