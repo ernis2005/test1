@@ -66,6 +66,14 @@ function App() {
         <div className='InfoMentorsCards'>
           <MentorsCard />
         </div>
+        <span style={{marginTop:'15px'}} className='Blockinfotest'>
+            Chances are you will be 98% satisfied with the result/ 4.9 is our average
+            <button>Записаться
+              <div>
+                <AiOutlineArrowRight />
+              </div>
+            </button>
+          </span>
       </div>
 
       <div className='Contend Reviews'>

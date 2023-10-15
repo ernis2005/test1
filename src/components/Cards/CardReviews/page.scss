@@ -104,11 +104,17 @@ text-align: left !important;
   display: flex;
   gap: 20px;
   width: 90%;
-  @media screen and (max-width:1102px) {
+  @media screen and (max-width:1227px) {
     margin-left: -30px !important;
   }
-  @media screen and (max-width:981px) {
+  @media screen and (max-width:1115px) {
     margin-left: -70px !important;
+  }
+  @media screen and (max-width:989px) {
+    margin-left: -140px !important;
+  }
+  @media screen and ( max-width:861px) {
+    margin-left: 0px !important;
   }
   @media screen and (max-width:606px ) {
     position: absolute;

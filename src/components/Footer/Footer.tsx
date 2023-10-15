@@ -51,7 +51,7 @@ const Footer = () => {
                         <div className='FooterBlock2Bloc3'>
                             <p>Контакты</p>
                             <ul>
-                                <li><HiOutlineMail/>odigital@gmail.com</li>
+                                <li><HiOutlineMail/> <span> </span> odigital@gmail.com</li>
                                 <li><BsTelephone style={{fontSize:'18px'}}/>+996 709 554 789</li>
                             </ul>
                         </div>
