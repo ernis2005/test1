@@ -4,10 +4,13 @@
     position: relative;
     z-index: 1;
     gap: 10px;
+
     .RecommendationsCardsCard {
         width: 100%;
         // height: 180px;
     margin-top: 30px;
+   
+
     @media screen and (max-width:640px) {
     display: flex;
     flex-direction: column-reverse;
@@ -73,6 +76,10 @@
 
 }
         .RecommendationsCardsInfo {
+            background:transparent;
+  
+    -webkit-backdrop-filter: blur(2px);
+    backdrop-filter: blur(2px);
             width: 50%;
             z-index: 1;
             padding: 20px;
@@ -83,6 +90,7 @@
             font-style: normal;
             font-weight: 500;
             line-height: 165%;
+            
           @media screen and (max-width:1121px) {
             font-size: 14px ;
           }
@@ -97,7 +105,7 @@
 
         .RecommendationsCardsBg {
             position: absolute;
-            margin-right: -123px;
+            margin-right: -67px;
             opacity: 0.07;
             right: 0;
             transform: rotate(312deg);
@@ -167,6 +175,10 @@
     background-color: #F0F0F0;
   position: relative;
     box-shadow: 0px 0px 15px 0px rgba(119, 119, 119, 0.10);
+    p{
+        -webkit-backdrop-filter: blur(2px);
+        backdrop-filter: blur(2px);
+    }
     @media screen and (max-width:640px) {
         display: block;
         height: auto;

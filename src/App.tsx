@@ -93,7 +93,7 @@ function App() {
       <div className='Contend Block3'>
         <div className='Block3Svg' >
         <h2> Почему стоит задуматься о карьере в IT?</h2>
-        {/* <Block3SvgBG/> */}
+         {/* <Block3SvgBG/>  */}
         </div>
        <RecommendationsCard/>
       </div>
