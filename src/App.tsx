@@ -19,6 +19,8 @@ function App() {
         <span className='BlockBg'>
           <p>ORACLEDIGITAL</p>
           <p>ORACLEDIGITAL</p>
+          <p>ORACLEDIGITAL</p>
+       
         </span>
         <div className='blockInfo'>
           <div className='h2'>
