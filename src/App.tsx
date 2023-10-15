@@ -20,6 +20,8 @@ function App() {
           <p>ORACLEDIGITAL</p>
           <p>ORACLEDIGITAL</p>
           <p>ORACLEDIGITAL</p>
+          <p>ORACLEDIGITAL</p>
+          <p>ORACLEDIGITAL</p>
        
         </span>
         <div className='blockInfo'>

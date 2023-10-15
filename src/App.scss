@@ -206,10 +206,12 @@ p{
         transform: rotate(0.43turn);
         gap: 40px;
         margin: 0 auto;
-        margin-top: -40px;
+        margin-top: -70px;
         width: 100%;
         justify-content: center;
-
+        @media screen and (max-width:625px) {
+            margin-left: 130px;
+        }
         p {
             // @media screen and (max-width:1465px) {
             //     font-size: 200px;
@@ -219,7 +221,7 @@ p{
                 font-size: 150px;
             }
 
-            font-size: 200px;
+            font-size: 190px;
             margin: 0 auto;
             font-family: 400;
             color: #3402F9;
