@@ -87,11 +87,9 @@ function App() {
       </div>
       <div  className='block4'>
   <div className='Block4Bg' >
-    <Block4Svg />
+  <img alt='/' src='/bg.png'/>
   </div>
-  <div className='Block4Bg2' >
-    <Block4Svg />
-  </div>
+  
   <div>
   <Tabs/>
   </div>

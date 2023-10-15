@@ -17,12 +17,14 @@ export const Accordions = () => {
     return (
         <div className={`${name}`}>
             <div className={`${name}Card`}>
-                <div className={`${name}CardBlock1`} onClick={() => onClick(1)}>
+                <div className={cm(`${name}CardBlock1`, {
+                    ['bg']: state == 1
+                })} onClick={() => onClick(1)}>
                     <p>Orci a vitae ut fringilla lacus. At vel dapibus orci elementum ac at?</p>
                     {state != 1 ? (
-                        <span style={{display:'grid', alignItems:'center'}}><AiOutlinePlus /></span>
+                        <span style={{ display: 'grid', alignItems: 'center' }}><AiOutlinePlus /></span>
                     ) : (
-                        <span  style={{display:'grid', alignItems:'center'}}><AiOutlineMinus /></span>
+                        <span style={{ display: 'grid', alignItems: 'center' }}><AiOutlineMinus /></span>
                     )
                     }
 
@@ -32,18 +34,20 @@ export const Accordions = () => {
                     ['loremAc']: state == 1
                 })}>
                     <p>
-                       Congue nullam molestie sit consectetur commodo mi elit viverra in. Turpis porttitor eget in quis aliquam. Senectus non nisi odio curabitur nisl viverra odio. Sit nunc purus tortor sapien. Maecenas eget tellus massa consectetur. Etiam leo luctus etiam vel. Vulputate varius elit nibh tortor id interdum interdum tellus. </p>
+                        Congue nullam molestie sit consectetur commodo mi elit viverra in. Turpis porttitor eget in quis aliquam. Senectus non nisi odio curabitur nisl viverra odio. Sit nunc purus tortor sapien. Maecenas eget tellus massa consectetur. Etiam leo luctus etiam vel. Vulputate varius elit nibh tortor id interdum interdum tellus. </p>
                 </div>
             </div>
 
 
             <div className={`${name}Card`}>
-                <div className={`${name}CardBlock1`} onClick={() => onClick(2)}>
+                <div className={cm(`${name}CardBlock1`, {
+                    ['bg']: state == 2
+                })} onClick={() => onClick(2)}>
                     <p>Orci a vitae ut fringilla lacus. At vel dapibus orci elementum ac at?</p>
                     {state != 2 ? (
-                        <span style={{display:'grid', alignItems:'center'}}><AiOutlinePlus /></span>
+                        <span style={{ display: 'grid', alignItems: 'center' }}><AiOutlinePlus /></span>
                     ) : (
-                        <span style={{display:'grid', alignItems:'center'}}><AiOutlineMinus /></span>
+                        <span style={{ display: 'grid', alignItems: 'center' }}><AiOutlineMinus /></span>
                     )
                     }
 
@@ -52,16 +56,18 @@ export const Accordions = () => {
                     ['loremAc']: state == 2
                 })}>
                     <p>
-                       Congue nullam molestie sit consectetur commodo mi elit viverra in. Turpis porttitor eget in quis aliquam. Senectus non nisi odio curabitur nisl viverra odio. Sit nunc purus tortor sapien. Maecenas eget tellus massa consectetur. Etiam leo luctus etiam vel. Vulputate varius elit nibh tortor id interdum interdum tellus. </p>
+                        Congue nullam molestie sit consectetur commodo mi elit viverra in. Turpis porttitor eget in quis aliquam. Senectus non nisi odio curabitur nisl viverra odio. Sit nunc purus tortor sapien. Maecenas eget tellus massa consectetur. Etiam leo luctus etiam vel. Vulputate varius elit nibh tortor id interdum interdum tellus. </p>
                 </div>
             </div>
             <div className={`${name}Card`}>
-                <div className={`${name}CardBlock1`} onClick={() => onClick(3)}>
+                <div className={cm(`${name}CardBlock1`, {
+                    ['bg']: state == 3
+                })} onClick={() => onClick(3)}>
                     <p>Orci a vitae ut fringilla lacus. At vel dapibus orci elementum ac at?</p>
                     {state != 3 ? (
-                        <span style={{display:'grid', alignItems:'center'}}><AiOutlinePlus /></span>
+                        <span style={{ display: 'grid', alignItems: 'center' }}><AiOutlinePlus /></span>
                     ) : (
-                        <span style={{display:'grid', alignItems:'center'}}><AiOutlineMinus /></span>
+                        <span style={{ display: 'grid', alignItems: 'center' }}><AiOutlineMinus /></span>
                     )
                     }
 
@@ -70,16 +76,20 @@ export const Accordions = () => {
                     ['loremAc']: state == 3
                 })}>
                     <p>
-                       Congue nullam molestie sit consectetur commodo mi elit viverra in. Turpis porttitor eget in quis aliquam. Senectus non nisi odio curabitur nisl viverra odio. Sit nunc purus tortor sapien. Maecenas eget tellus massa consectetur. Etiam leo luctus etiam vel. Vulputate varius elit nibh tortor id interdum interdum tellus. </p>
+                        Congue nullam molestie sit consectetur commodo mi elit viverra in. Turpis porttitor eget in quis aliquam. Senectus non nisi odio curabitur nisl viverra odio. Sit nunc purus tortor sapien. Maecenas eget tellus massa consectetur. Etiam leo luctus etiam vel. Vulputate varius elit nibh tortor id interdum interdum tellus. </p>
                 </div>
             </div>
             <div className={`${name}Card`}>
-                <div className={`${name}CardBlock1`} onClick={() => onClick(4)}>
+                <div 
+                className={cm(`${name}CardBlock1`, {
+                    ['bg']: state == 4
+                })}
+                onClick={() => onClick(4)}>
                     <p>Orci a vitae ut fringilla lacus. At vel dapibus orci elementum ac at?</p>
                     {state != 4 ? (
-                        <span style={{display:'grid', alignItems:'center'}}><AiOutlinePlus /></span>
+                        <span style={{ display: 'grid', alignItems: 'center' }}><AiOutlinePlus /></span>
                     ) : (
-                        <span style={{display:'grid', alignItems:'center'}}><AiOutlineMinus /></span>
+                        <span style={{ display: 'grid', alignItems: 'center' }}><AiOutlineMinus /></span>
                     )
                     }
                 </div>
@@ -87,16 +97,18 @@ export const Accordions = () => {
                     ['loremAc']: state == 4
                 })}>
                     <p>
-                       Congue nullam molestie sit consectetur commodo mi elit viverra in. Turpis porttitor eget in quis aliquam. Senectus non nisi odio curabitur nisl viverra odio. Sit nunc purus tortor sapien. Maecenas eget tellus massa consectetur. Etiam leo luctus etiam vel. Vulputate varius elit nibh tortor id interdum interdum tellus. </p>
+                        Congue nullam molestie sit consectetur commodo mi elit viverra in. Turpis porttitor eget in quis aliquam. Senectus non nisi odio curabitur nisl viverra odio. Sit nunc purus tortor sapien. Maecenas eget tellus massa consectetur. Etiam leo luctus etiam vel. Vulputate varius elit nibh tortor id interdum interdum tellus. </p>
                 </div>
             </div>
             <div className={`${name}Card`}>
-                <div className={`${name}CardBlock1`} onClick={() => onClick(5)}>
+                <div   className={cm(`${name}CardBlock1`, {
+                    ['bg']: state == 5
+                })} onClick={() => onClick(5)}>
                     <p>Orci a vitae ut fringilla lacus. At vel dapibus orci elementum ac at?</p>
                     {state != 5 ? (
-                        <span style={{display:'grid', alignItems:'center'}}> <AiOutlinePlus /></span>
+                        <span style={{ display: 'grid', alignItems: 'center' }}> <AiOutlinePlus /></span>
                     ) : (
-                        <span style={{display:'grid', alignItems:'center'}}> <AiOutlineMinus /></span>
+                        <span style={{ display: 'grid', alignItems: 'center' }}> <AiOutlineMinus /></span>
                     )
                     }
 
@@ -105,7 +117,7 @@ export const Accordions = () => {
                     ['loremAc']: state == 5
                 })}>
                     <p>
-                       Congue nullam molestie sit consectetur commodo mi elit viverra in. Turpis porttitor eget in quis aliquam. Senectus non nisi odio curabitur nisl viverra odio. Sit nunc purus tortor sapien. Maecenas eget tellus massa consectetur. Etiam leo luctus etiam vel. Vulputate varius elit nibh tortor id interdum interdum tellus. </p>
+                        Congue nullam molestie sit consectetur commodo mi elit viverra in. Turpis porttitor eget in quis aliquam. Senectus non nisi odio curabitur nisl viverra odio. Sit nunc purus tortor sapien. Maecenas eget tellus massa consectetur. Etiam leo luctus etiam vel. Vulputate varius elit nibh tortor id interdum interdum tellus. </p>
                 </div>
             </div>
         </div>
