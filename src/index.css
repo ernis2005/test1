@@ -3,9 +3,8 @@
   src: url(/public/fonts/Montserrat.ttf);
 }
 body {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Montserrat', sans-serif !important;
   margin: 0;
-  overflow: hidden;
  
 }
 .Contend{
