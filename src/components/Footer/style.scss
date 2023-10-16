@@ -212,7 +212,32 @@
                 }
             }
         }
-
+@media screen and (max-width:748px) {
+    .FooterBlock2Bloc2 {
+        p{
+            font-size: 18px !important;
+        }
+        li {
+            font-size: 15px !important;
+        }
+    }
+    .FooterBlock2Bloc3 {
+        p{
+            font-size: 18px !important;
+        }
+        li {
+            font-size: 15px !important;
+        }
+    }
+    .FooterBlock2Bloc4 {
+        p{
+            font-size: 18px !important;
+        }
+        li {
+            font-size: 20px !important;
+        }
+    }
+}
         .FooterBlock2Bloc2 {
             display: grid;
             row-gap: 30px;
@@ -222,7 +247,7 @@
             p {
                 color: var(--DARK, #161616);
                 font-family: Montserrat;
-                font-size: 18px;
+                font-size:24px;
                 font-style: normal;
                 font-weight: 600;
                 line-height: normal;
@@ -238,9 +263,9 @@
                     list-style: none;
                     color: var(--DARK, #161616);
                     font-family: Montserrat;
-                    font-size: 15px;
+                    font-size: 18px;
                     font-style: normal;
-                    opacity: 0.7;
+                    opacity: 1;
                     font-weight: 500;
                     line-height: normal;
 
@@ -256,7 +281,7 @@
             p {
                 color: var(--DARK, #161616);
                 font-family: Montserrat;
-                font-size: 18px;
+                font-size: 24px;
                 font-style: normal;
                 font-weight: 600;
                 line-height: normal;
@@ -273,9 +298,9 @@
                     list-style: none;
                     color: var(--DARK, #161616);
                     font-family: Montserrat;
-                    font-size: 15px;
+                    font-size: 18px;
                     font-style: normal;
-                    opacity: 0.7;
+                    opacity:1;
                     font-weight: 500;
                     line-height: normal;
                     padding-left: 10px;
@@ -292,6 +317,14 @@
 
         .FooterBlock2Bloc4 {
             display: block;
+            p{
+                color: var(--DARK, #161616);
+                font-family: Montserrat;
+                font-size: 24px;
+                font-style: normal;
+                font-weight: 600;
+                line-height: normal;
+            }
 
             ul {
                 display: flex;
@@ -302,7 +335,7 @@
 
                 li {
                     list-style: none;
-                    font-size: 20px;
+                    font-size: 30px;
                     margin-top: 0px;
                 }
             }

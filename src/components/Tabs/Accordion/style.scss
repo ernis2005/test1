@@ -33,7 +33,7 @@
             p{
                 text-align: left !important;
                 margin-left: 0px;
-                font-weight: 300 !important;
+                font-weight: 700 !important;
                 @media screen and (max-width:1258px ) {
 
                     font-size: 13px !important;
@@ -79,7 +79,7 @@
       }
     
 
-border-radius: 0px 0px 10px 10px;
+border-radius: 0px 0px 15px 15px;
 transition: 0.5s;
 @media screen and (max-width:1258px) {
  
@@ -93,11 +93,13 @@ transition: 0.5s;
 p{
     color: var(--DARK, #161616);
     font-family: Montserrat;
-    font-size: 13px;
+    font-size: 16px;
     font-style: normal;
     font-weight: 400;
-    padding: 10px;
+    padding:  10px;
+margin: 0;
     line-height: 150%; 
+    width: 95% !important;
     @media screen and (max-width:1258px) {
         font-size: 13px !important;
         

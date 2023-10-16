@@ -22,8 +22,8 @@
             height: 250px !important;
 
             span {
-                bottom: 49px !important;
-                width: 203px !important;
+               
+              
                 font-size: 18px !important;
             }
         }
@@ -34,9 +34,9 @@
             height: 250px !important;
 
             span {
-                bottom: 49px !important;
+              
                 font-size: 18px !important;
-                width: 203px !important;
+                
             }
         }
 
@@ -46,9 +46,9 @@
             height: 250px !important;
 
             span {
-                bottom: 49px !important;
+           
                 font-size: 18px !important;
-                width: 203px !important;
+              
             }
         }
 
@@ -92,17 +92,17 @@ margin-top: 20px;
             .MentorsCardsCardInfo {
                 bottom: 0 !important;
 
-                position: absolute;
+                
                
                 width: 276px !important;
                 height: 150px !important;
                 p {
                     font-size: 22px !important;
                 }
-                div{
-                  padding: 10px;
+                div{ height: 70% !important;
+               
                     span{
-                        width: 200px !important;
+                       
                         font-size: 15px !important;
                         }
                 }
@@ -112,6 +112,7 @@ margin-top: 20px;
                 bottom: 0 !important;
   order: 1;
                 position: absolute;
+                
                
                 width: 276px !important;
                 height: 150px !important;
@@ -119,7 +120,7 @@ margin-top: 20px;
                     font-size: 22px !important;
                 }
                 div{
-                  padding: 10px;
+              height: 70% !important;
                     span{
                         width: 200px !important;
                         font-size: 15px !important;
@@ -138,7 +139,8 @@ margin-top: 20px;
                     font-size: 22px !important;
                 }
                 div{
-                  padding: 10px;
+                    height: 70% !important;
+                  
                     span{
                         width: 200px !important;
                         font-size: 15px !important;
@@ -232,7 +234,7 @@ margin-top: 20px;
      
         .MentorsCardsCardInfo {
             width: 100%;
-            height: 326px;
+            height: 280px;
             background: #B3D3BB;
             border-radius: 30px;
             position: relative;
@@ -251,25 +253,29 @@ margin-top: 20px;
                 padding: 30px;
                 position: relative;
                 z-index: 2;
-                height: 80%;
+                height: 82%;
+                display: grid;
+                align-items: start;
+                justify-content: space-between;
+                align-content: space-between;
 
                 p {
                     position: relative;
                     color: #FFF;
                     padding: 0;
                     margin: 0;
-                    font-size: 64px;
+                    font-size: 54px;
                     font-style: normal;
                     font-weight: 600;
                     line-height: normal;
                 }
 
                 span {
-                    position: absolute;
-                    bottom: 39px;
+                    position: relative;
+                    
                     color: #FFF;
                     font-family: Montserrat;
-                    font-size: 22px;
+                    font-size: 18px;
                     font-style: normal;
                     font-weight: 600;
                     line-height: normal;
@@ -280,7 +286,7 @@ margin-top: 20px;
 
         .MentorsCardsCardInfo2 {
             width: 100%;
-            height: 326px;
+            height: 280px;
             background: #697174;
             border-radius: 30px;
             position: relative;
@@ -308,25 +314,28 @@ margin-top: 20px;
                 padding: 30px;
                 position: relative;
                 z-index: 2;
-                height: 80%;
-
+                height: 82%;
+                display: grid;
+                align-items: start;
+                justify-content: space-between;
+                align-content: space-between;
                 p {
                     position: relative;
                     color: #FFF;
                     padding: 0;
                     margin: 0;
-                    font-size: 64px;
+                    font-size: 54px;
                     font-style: normal;
                     font-weight: 600;
                     line-height: normal;
                 }
 
                 span {
-                    position: absolute;
-                    bottom: 39px;
+                    position: relative;
+                    
                     color: #FFF;
                     font-family: Montserrat;
-                    font-size: 22px;
+                    font-size: 18px;
                     font-style: normal;
                     font-weight: 600;
                     line-height: normal;
@@ -336,7 +345,7 @@ margin-top: 20px;
 
         .MentorsCardsCardInfo1 {
             width: 100%;
-            height: 326px;
+            height: 280px;
             background: #C1B0DA;
             border-radius: 30px;
             position: relative;
@@ -353,27 +362,31 @@ margin-top: 20px;
 
             div {
                 padding: 30px;
-                position: relative;
-                z-index: 2;
-                height: 80%;
+    position: relative;
+    z-index: 2;
+    height: 82%;
+    display: grid;
+    align-items: start;
+    justify-content: space-between;
+    align-content: space-between;
 
                 p {
                     position: relative;
                     color: #FFF;
                     padding: 0;
                     margin: 0;
-                    font-size: 64px;
+                    font-size: 54px;
                     font-style: normal;
                     font-weight: 600;
                     line-height: normal;
                 }
 
                 span {
-                    position: absolute;
-                    bottom: 39px;
+                    position: relative;
+                   
                     color: #FFF;
                     font-family: Montserrat;
-                    font-size: 22px;
+                    font-size: 18px;
                     font-style: normal;
                     font-weight: 600;
                     line-height: normal;
