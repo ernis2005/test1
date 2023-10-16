@@ -1,12 +1,49 @@
 import React from 'react'
 import './style.scss'
 import { Block3SvgArrow, Block3SvgBG, Block3SvgSvg1, Block3SvgSvg2, Block3SvgSvg3 } from '../../svg/Block3Svg/Block3Svg'
-let name = 'RecommendationsCards'
 
+import { motion, AnimatePresence } from "framer-motion"
 const RecommendationsCard = () => {
+    let name = 'RecommendationsCards'
+    const left = {
+        initial: {
+            opacity: 0,
+            x: -100
+        },
+        
+        animate: {
+            opacity: 1,
+            
+            transition: {
+                duration: 1
+            },
+            x: 0
+        },
+
+    }
+    const right = {
+        initial: {
+            opacity: 0,
+
+            x: 100
+        },
+        animate: {
+            opacity: 1,
+            transition: {
+                duration: 1
+            },
+            x: 0
+        },
+    }
     return (
-        <div className={`${name}`} >
-            <div className={`${name}Card`}>
+        <AnimatePresence>
+ <div className={`${name}`} >
+            <motion.div 
+              initial="initial"
+              whileInView="animate"
+              exit="initial"
+              variants={left}
+              className={`${name}Card`}>
                 <div className={`${name}Info`}>
                     <p>В IT-сфере очень много перспективных дорожек. От создания сайтов и программ до графического дизайна мобильных игр или приложений. Вам вовсе не обязательно проводить 24/7 за написанием «сложного» кода для того, чтобы быть успешным</p>
                 </div>
@@ -35,8 +72,13 @@ const RecommendationsCard = () => {
                     </div>
                 </div>
 
-            </div>
-            <div className={`${name}Card2`}>
+            </motion.div>
+            <motion.div 
+              initial="initial"
+              whileInView="animate"
+              exit="initial"
+              variants={right}
+             className={`${name}Card2`}>
                 <div className={`${name}Card2Block2`}>
 
                     <div className={`${name}InfoNumber2`}>
@@ -57,8 +99,13 @@ const RecommendationsCard = () => {
 
                 <p>В IT-сфере очень много перспективных дорожек. От создания сайтов и программ до графического дизайна мобильных игр или приложений. Вам вовсе не обязательно проводить 24/7 за написанием «сложного» кода для того, чтобы быть успешным</p>
 
-            </div>
-            <div className={`${name}Card`}>
+            </motion.div>
+            <motion.div 
+            initial="initial"
+            whileInView="animate"
+            exit="initial"
+            variants={left}
+             className={`${name}Card`}>
                 <div className={`${name}Info`}>
                     <p>В IT-сфере очень много перспективных дорожек. От создания сайтов и программ до графического дизайна мобильных игр или приложений. Вам вовсе не обязательно проводить 24/7 за написанием «сложного» кода для того, чтобы быть успешным</p>
                 </div>
@@ -87,8 +134,13 @@ const RecommendationsCard = () => {
                     </div>
                 </div>
 
-            </div>
-            <div className={`${name}Card2`}>
+            </motion.div>
+            <motion.div 
+             initial="initial"
+              whileInView="animate"
+              exit="initial"
+              variants={right}
+             className={`${name}Card2`}>
                 <div className={`${name}Card2Block2`}>
 
                     <div className={`${name}InfoNumber2`}>
@@ -113,8 +165,10 @@ const RecommendationsCard = () => {
 
                 <p>В IT-сфере очень много перспективных дорожек. От создания сайтов и программ до графического дизайна мобильных игр или приложений. Вам вовсе не обязательно проводить 24/7 за написанием «сложного» кода для того, чтобы быть успешным</p>
 
-            </div>
+            </motion.div>
         </div>
+        </AnimatePresence>
+       
     )
 }
 export default RecommendationsCard

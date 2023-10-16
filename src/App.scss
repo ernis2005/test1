@@ -45,7 +45,7 @@
 
                         p {
                             padding: 6px !important;
-
+                            
                             @media screen and (max-width:647px) {
                                 padding: 12px !important;
                                 font-size: 16px !important;
@@ -55,7 +55,7 @@
                             padding: 0px 20px;
                             p{
 font-size: 12px !important;
-margin-left: -34px !important;
+
                             }
                            @media screen and (max-width:393px) {
                             
@@ -123,10 +123,8 @@ margin-left: -34px !important;
                         color: #fff;
 
                         margin: 0;
-
+                        margin-left: -31px;
                     }
-
-
                     div {
                         background: rgb(255, 255, 255);
                         width: 50px;
@@ -176,11 +174,11 @@ p{
             p{
                 color: var(--DARK, #161616);
                 margin-top: 20px;
-                            font-size: 22px;
-                            font-style: normal;
-                            font-weight: 500;
-                            line-height: 185%;
-                
+                font-size: 18px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: 185%;
+                max-width: 794px;
                             /* 48.1px */
                             @media screen and (max-width:886px) {
                                 font-size: 17px;
