@@ -7,10 +7,21 @@ import 'swiper/css/pagination';
 
 import { EffectCoverflow, Pagination } from 'swiper/modules';
 import './style.scss'
+import './Card/style.scss'
 import { Card } from './Card/Card';
 export const OurCoursesCard = () => {
   return (
+    <>  <div className='OurCoursesCard1'>
+ 
+        <Card image={'/images/js.png'}/>
+      
+        <Card image={'/images/Group.png'} />
+
+      
+        <Card image={'/images/skill-icons_javascript.png'}/>
+    </div>
     <Swiper
+    className='OurCoursesCard2'
       navigation
       pagination={{ clickable: true }}
       effect="coverflow"
@@ -21,7 +32,9 @@ export const OurCoursesCard = () => {
         depth: 100,
         modifier: 2,
         slideShadows: false
+        
       }}
+      
       breakpoints={{
         320:{
           slidesPerView: 1,
@@ -60,5 +73,7 @@ export const OurCoursesCard = () => {
       </SwiperSlide>
     </Swiper>
 
+    </>
+  
   )
 }

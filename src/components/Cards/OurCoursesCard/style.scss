@@ -31,3 +31,16 @@ transform: scale(1.1);
 
   }
 }
+.OurCoursesCard1{
+  display: flex;
+  @media screen and (max-width:1391px) {
+    display: none;
+  }
+ 
+}
+.OurCoursesCard2{
+  display: none;
+  @media screen and (max-width:1391px) {
+    display: block !important;
+  }
+}
